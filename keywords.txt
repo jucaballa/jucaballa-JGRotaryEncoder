@@ -1,0 +1,16 @@
+#######################################
+# Syntax Coloring Map For RotaryEncoder
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+JGRotaryEncoder	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getDirection	KEYWORD2
+tick			KEYWORD2
