@@ -25,7 +25,7 @@ JGRotaryEncoder::JGRotaryEncoder(int dataPin, int clockPin, int switchPin) {
 }
 
 // Initialize encoder
-JGRotaryEncoder::init(int dataPin, int clockPin, int switchPin) {
+void JGRotaryEncoder::init(int dataPin, int clockPin, int switchPin) {
   // Remember Hardware Setup
   _dataPin = dataPin;
   _clockPin = clockPin;
