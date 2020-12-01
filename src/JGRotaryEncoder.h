@@ -21,7 +21,7 @@ public:
   JGRotaryEncoder(int dataPin, int clockPin, int switchPin);
 
   // hardware initazization
-  init(int dataPin, int clockPin, int switchPin);
+  void init(int dataPin, int clockPin, int switchPin);
 
   // configure operation mode
   void setSinglePhase(int8_t singlePhase);
